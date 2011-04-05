@@ -1,8 +1,8 @@
 /**
  * 	------------------------
  * 	 CPE458 - Project 1
- *		 Matrix Multiplication
- *		------------------------
+ *	 Matrix Multiplication
+ *	------------------------
  *		Brian C. Danque And Darrin Weng
  */
 
@@ -20,9 +20,9 @@ void write_output(FLOAT_TYPE *matrix, int size)
     int i;
     FILE *output;
 
-    if((output = fopen("result.txt", "w")) == NULL)
+    if((output = fopen("result.out", "w")) == NULL)
     {
-        printf("Cannot write result.txt\n");
+        printf("Cannot write result.out\n");
     }
 
     for(i = 0; i < (size * size); i++)
